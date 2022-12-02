@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Courset</title>
+    <!-- ----------- tailwind css cdn -------------->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-------------- fontawesome css cdn ----------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <main>
+      <!-- find your course section -->
+      <section class="max-w-[1150px] mx-auto flex py-16">
+        <div class="basis-1/3">
+          <img
+            class="w-96 pt-10"
+            src="./images/https___www.classcentral.com_images_illustrations_learning-illustration-01.avif"
+            alt=""
+          />
+        </div>
+
+        <div class="flex flex-col gap-y-5 basis-2/3 pl-10">
+          <h1 class="text-5xl font-bold">Find your next course.</h1>
+
+          <input
+            class="text-2xl py-5 px-10 shadow-xl rounded-full focus:backdrop-brightness-50 focus:bg-white/30"
+            type="text"
+            placeholder=" Search 100,00 courses..."
+          />
+
+          <div class="flex justify-between text-xl">
+            <p>
+              Or browse by
+              <a
+                href=""
+                class="underline decoration-gray-400 hover:decoration-gray-600 hover:bg-blue-50"
+                >subject</a
+              >
+              or
+              <a
+                href=""
+                class="underline decoration-gray-400 hover:decoration-gray-600 hover:bg-blue-50"
+              >
+                University
+              </a>
+            </p>
+            <a
+              href=""
+              class="underline decoration-gray-400 hover:decoration-gray-600 hover:bg-blue-50"
+            >
+              Learn more
+              <span><i class="fa-solid fa-circle-question"></i></span>
+            </a>
+          </div>
+          <h1 class="text-xl font-bold pt-6">Popular courses</h1>
+          <div class="flex flex-wrap gap-2">
+            <a
+              href=""
+              class="flex justify-self-center p-2 items-center bg-slate-50 border-2 border-slate-100 rounded-2xl duration-300 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+            >
+              <img
+                class="w-7 h-7"
+                src="./images/course-type/free-certificates-images_icon-.avif"
+                alt=""
+              />
+              <p class="font-semibold text-cyan-900 ml-1">Free Certificates</p>
+            </a>
+            <a
+              href=""
+              class="flex justify-self-center p-2 items-center bg-slate-50 border-2 border-slate-100 rounded-2xl duration-300 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+            >
+              <img
+                class="w-7 h-7"
+                src="./images/course-type/black-friday-images_icon-.avif"
+                alt=""
+              />
+              <p class="font-semibold text-cyan-900 ml-1">Black Friday</p>
+            </a>
+            <a
+              href=""
+              class="flex justify-self-center p-2 items-center bg-slate-50 border-2 border-slate-100 rounded-2xl duration-300 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+            >
+              <img
+                class="w-7 h-7"
+                src="./images/course-type/ivy-league-images_icon-.avif"
+                alt=""
+              />
+              <p class="font-semibold text-cyan-900 ml-1">Ivy League</p>
+            </a>
+            <a
+              href=""
+              class="flex justify-self-center p-2 items-center bg-slate-50 border-2 border-slate-100 rounded-2xl duration-300 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+            >
+              <img
+                class="w-7 h-7"
+                src="./images/course-type/institutions_stanford-trn-sq-images_logos.avif"
+                alt=""
+              />
+              <p class="font-semibold text-cyan-900 ml-1">Stanford</p>
+            </a>
+            <a
+              href=""
+              class="flex justify-self-center p-2 items-center bg-slate-50 border-2 border-slate-100 rounded-2xl duration-300 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+            >
+              <img
+                class="w-7 h-7"
+                src="./images/course-type/best-all-time-images_icon.avif"
+                alt=""
+              />
+              <p class="font-semibold text-cyan-900 ml-1">Best of ALL Time</p>
+            </a>
+            <a
+              href=""
+              class="flex justify-self-center p-2 items-center bg-slate-50 border-2 border-slate-100 rounded-2xl duration-300 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+            >
+              <img
+                class="w-7 h-7"
+                src="./images/course-type/cs-images_iconavif.avif"
+                alt=""
+              />
+              <p class="font-semibold text-cyan-900 ml-1">Computer Science</p>
+            </a>
+            <a
+              href=""
+              class="flex justify-self-center p-2 items-center bg-slate-50 border-2 border-slate-100 rounded-2xl duration-300 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+            >
+              <img
+                class="w-7 h-7"
+                src="./images/course-type/sustainability-images_icon.avif"
+                alt=""
+              />
+              <p class="font-semibold text-cyan-900 ml-1">Sustainability</p>
+            </a>
+            <a
+              href=""
+              class="flex justify-self-center p-2 items-center bg-slate-50 border-2 border-slate-100 rounded-2xl duration-300 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+            >
+              <img
+                class="w-7 h-7"
+                src="./images/course-type/institutions_mit-trn-sq-images_logosavif.avif"
+                alt=""
+              />
+              <p class="font-semibold text-cyan-900 ml-1">MiT</p>
+            </a>
+            <a
+              href=""
+              class="flex justify-self-center p-2 items-center bg-slate-50 border-2 border-slate-100 rounded-2xl duration-300 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+            >
+              <img
+                class="w-7 h-7"
+                src="./images/course-type/institutions_google-trn-sq-mages_logos.avif"
+                alt=""
+              />
+              <p class="font-semibold text-cyan-900 ml-1">Google</p>
+            </a>
+
+            <a
+              href=""
+              class="flex justify-self-center p-2 items-center bg-slate-50 border-2 border-slate-100 rounded-2xl duration-300 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+            >
+              <img
+                class="w-7 h-7"
+                src="./images/course-type/institutions_amazon-trn-sq-images_logos.avif"
+                alt=""
+              />
+              <p class="font-semibold text-cyan-900 ml-1">Amazon</p>
+            </a>
+            <a
+              href=""
+              class="flex justify-self-center p-2 items-center bg-slate-50 border-2 border-slate-100 rounded-2xl duration-300 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+            >
+              <img
+                class="w-7 h-7"
+                src="./images/course-type/business-images_icon.avif"
+                alt=""
+              />
+              <p class="font-semibold text-cyan-900 ml-1">Business</p>
+            </a>
+            <a
+              href=""
+              class="flex justify-self-center p-2 items-center bg-slate-50 border-2 border-slate-100 rounded-2xl duration-300 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+            >
+              <i class="fa-sharp fa-solid fa-closed-captioning text-2xl"></i>
+              <p class="font-semibold text-cyan-900 ml-1">Best Courses Guide</p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- Find the best courses, wherever they exist -->
+      <section class="py-12 bg-gradient-to-r from-gray-50 to-green-50">
+        <div>
+          <h1 class="text-center text-5xl font-bold text-blue-900 pt-16 pb-8">
+            Find the best courses, wherever they exist
+          </h1>
+          <img src="./images/homepage-discover-new-large.webp" alt="" />
+        </div>
+        <div class="flex max-w-[1400px] mx-auto py-1">
+          <div class="basis-1/2 border-r-4 border-dotted">
+            <h2 class="text-3xl font-bold pb-10">~1000 Universities</h2>
+            <ul class="grid grid-cols-2">
+              <li
+                class="hover:bg-gray-200 duration-300 hover:rounded-2xl py-2 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+              >
+                <a href="" class="flex gap-x-3">
+                  <img
+                    src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fharvard.png?auto=format&cs=strip&fit=&h=50&ixlib=php-3.3.1&w=50&s=e177bee72e03d5df7c50177940004b51"
+                    alt=""
+                  />
+                  <h2 class="text-xl font-medium text-slate-700">
+                    Harvard University
+                  </h2>
+                </a>
+              </li>
+              <li
+                class="hover:bg-gray-200 duration-300 hover:rounded-2xl py-2 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+              >
+                <a href="" class="flex gap-x-3">
+                  <img
+                    src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fstanford.png?auto=format&cs=strip&fit=&h=50&ixlib=php-3.3.1&w=50&s=88952c24aeee5f18451e40581c99deac"
+                    alt=""
+                  />
+                  <h2 class="text-xl font-medium text-slate-700">
+                    Stanford Kharagpur
+                  </h2></a
+                >
+              </li>
+              <li
+                class="hover:bg-gray-200 duration-300 hover:rounded-2xl py-2 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+              >
+                <a href="" class="flex gap-x-3">
+                  <img
+                    src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fiit-kharagpur.png?auto=format&cs=strip&fit=&h=50&ixlib=php-3.3.1&w=50&s=240da08e01eed98192e99ce4f1d6ce97"
+                    alt=""
+                  />
+                  <h2 class="text-xl font-medium text-slate-700">
+                    IIT Kharagpur
+                  </h2></a
+                >
+              </li>
+              <li
+                class="hover:bg-gray-200 duration-300 hover:rounded-2xl py-2 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+              >
+                <a href="" class="flex gap-x-3">
+                  <img
+                    src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fmit.png?auto=format&cs=strip&fit=&h=50&ixlib=php-3.3.1&w=50&s=5e57f727cf0057460f8bee7213cd3539"
+                    alt=""
+                  />
+                  <h2 class="text-xl font-medium text-slate-700">MIT</h2></a
+                >
+              </li>
+
+              <li
+                class="hover:bg-gray-200 duration-300 hover:rounded-2xl py-2 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+              >
+                <a href="" class="flex gap-x-3">
+                  <img
+                    src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Frice.png?auto=format&cs=strip&fit=&h=50&ixlib=php-3.3.1&w=50&s=a4cd65fffbdcfa9e4f713a0f8727ca9f"
+                    alt=""
+                  />
+                  <h2 class="text-xl font-medium text-slate-700">
+                    Rice University
+                  </h2></a
+                >
+              </li>
+              <li
+                class="hover:bg-gray-200 duration-300 hover:rounded-2xl py-2 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+              >
+                <a href="" class="flex gap-x-3">
+                  <img
+                    src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fiitm.png?auto=format&cs=strip&fit=&h=50&ixlib=php-3.3.1&w=50&s=78fd57bad00a8445c4a83e942421bdfa"
+                    alt=""
+                  />
+                  <h2 class="text-xl font-medium text-slate-700">
+                    IIT Madras
+                  </h2></a
+                >
+              </li>
+              <li
+                class="hover:bg-gray-200 duration-300 hover:rounded-2xl py-2 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+              >
+                <a href="" class="flex gap-x-3">
+                  <img
+                    src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fcolumbia.png?auto=format&cs=strip&fit=&h=50&ixlib=php-3.3.1&w=50&s=cda5c4e367a8d8597981733b1a1e2020"
+                    alt=""
+                  />
+                  <h2 class="text-xl font-medium text-slate-700">
+                    Columbia University
+                  </h2></a
+                >
+              </li>
+              <li
+                class="hover:bg-gray-200 duration-300 hover:rounded-2xl py-2 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+              >
+                <a href="" class="flex gap-x-3">
+                  <img
+                    src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fcornell.png?auto=format&cs=strip&fit=&h=50&ixlib=php-3.3.1&w=50&s=c281a17cd599f91a73543731494ff4de"
+                    alt=""
+                  />
+                  <h2 class="text-xl font-medium text-slate-700">
+                    Cornell University
+                  </h2></a
+                >
+              </li>
+              <li
+                class="hover:bg-gray-200 duration-300 hover:rounded-2xl py-2 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+              >
+                <a href="" class="flex gap-x-3">
+                  <img
+                    src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fedinburgh.png?auto=format&cs=strip&fit=&h=50&ixlib=php-3.3.1&w=50&s=02e1424f140c413a5f4bff39345aade7"
+                    alt=""
+                  />
+                  <h2 class="text-xl font-medium text-slate-700">
+                    u. of Edinburgh
+                  </h2></a
+                >
+              </li>
+              <li
+                class="hover:bg-gray-200 duration-300 hover:rounded-2xl py-2 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+              >
+                <a href="" class="flex gap-x-3">
+                  <img
+                    src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fpurdue.png?auto=format&cs=strip&fit=&h=50&ixlib=php-3.3.1&w=50&s=57260d55af3c798ab3c3c38fd644d5dc"
+                    alt=""
+                  />
+                  <h2 class="text-xl font-medium text-slate-700">
+                    Purdue University
+                  </h2></a
+                >
+              </li>
+              <li
+                class="hover:bg-gray-200 duration-300 hover:rounded-2xl py-2 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+              >
+                <a href="" class="flex gap-x-3">
+                  <img
+                    src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fpenn.png?auto=format&cs=strip&fit=&h=50&ixlib=php-3.3.1&w=50&s=9be4953459c0a57a968f58552de3da24"
+                    alt=""
+                  />
+                  <h2 class="text-xl font-medium text-slate-700">
+                    U. of pennsylvania University
+                  </h2></a
+                >
+              </li>
+              <li
+                class="hover:bg-gray-200 duration-300 hover:rounded-2xl py-2 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+              >
+                <a href="" class="flex gap-x-3">
+                  <img
+                    src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fduke.png?auto=format&cs=strip&fit=&h=50&ixlib=php-3.3.1&w=50&s=7badaeb1866525d65f9e1b769fd1c8a8"
+                    alt=""
+                  />
+                  <h2 class="text-xl font-medium text-slate-700">
+                    Duke University
+                  </h2></a
+                >
+              </li>
+              <li
+                class="hover:bg-gray-200 duration-300 hover:rounded-2xl py-2 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+              >
+                <a href="" class="flex gap-x-3">
+                  <img
+                    src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fumich.png?auto=format&cs=strip&fit=&h=50&ixlib=php-3.3.1&w=50&s=c3639dfc0b29edccbff274081475d99f"
+                    alt=""
+                  />
+                  <h2 class="text-xl font-medium text-slate-700">
+                    U. of Michigan
+                  </h2></a
+                >
+              </li>
+            </ul>
+            <div class="pt-10 pb-20">
+              <button
+                class="text-2xl font-bold bg-gradient-to-r from-violet-300 to-violet-0 py-4 px-6 duration-300 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+              >
+                Browse Universities<i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="basis-1/4 border-r-4 border-dotted pl-10">
+            <h2 class="text-3xl font-bold pb-10">70 Providers</h2>
+            <ul>
+              <li
+                class="hover:bg-gray-200 duration-300 hover:rounded-2xl py-2 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+              >
+                <a href="" class="flex gap-x-3">
+                  <img
+                    class="rounded-lg"
+                    src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fproviders%2Fcoursera-trn-sq.png?auto=format&cs=strip&fit=&h=50&ixlib=php-3.3.1&w=50&s=25870ffbba482c2c8dca6ab7233fa851"
+                    alt=""
+                  />
+                  <h2 class="text-xl font-medium text-slate-700">
+                    Coursera
+                  </h2></a
+                >
+              </li>
+              <li
+                class="hover:bg-gray-200 duration-300 hover:rounded-2xl py-2 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+              >
+                <a href="" class="flex gap-x-3">
+                  <img
+                    src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fproviders%2Fedx-trn-sq.png?auto=format&cs=strip&fit=&h=50&ixlib=php-3.3.1&w=50&s=86be374faaa2c332611cd8a1cb508975"
+                    alt=""
+                  />
+                  <h2 class="text-xl font-medium text-slate-700">edX</h2></a
+                >
+              </li>
+              <li
+                class="hover:bg-gray-200 duration-300 hover:rounded-2xl py-2 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+              >
+                <a href="" class="flex gap-x-3">
+                  <img
+                    class="rounded-lg"
+                    src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fproviders%2Ffuturelearn-trn-sq.png?auto=format&cs=strip&fit=&h=50&ixlib=php-3.3.1&w=50&s=890afa9595255a6e9b8884ddc515d769"
+                    alt=""
+                  />
+                  <h2 class="text-xl font-medium text-slate-700">
+                    FutureLearn
+                  </h2></a
+                >
+              </li>
+              <li
+                class="hover:bg-gray-200 duration-300 hover:rounded-2xl py-2 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+              >
+                <a href="" class="flex gap-x-3">
+                  <img
+                    src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fproviders%2Fudemy-trn-sq.png?auto=format&cs=strip&fit=&h=50&ixlib=php-3.3.1&w=50&s=918f4790c5c5818a022e23be21061434"
+                    alt=""
+                  />
+                  <h2 class="text-xl font-medium text-slate-700">Udemy</h2></a
+                >
+              </li>
+              <li
+                class="hover:bg-gray-200 duration-300 hover:rounded-2xl py-2 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+              >
+                <a href="" class="flex gap-x-3">
+                  <img
+                    src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fstanford.png?auto=format&cs=strip&fit=&h=50&ixlib=php-3.3.1&w=50&s=88952c24aeee5f18451e40581c99deac"
+                    alt=""
+                  />
+                  <h2 class="text-xl font-medium text-slate-700">Swayam</h2></a
+                >
+              </li>
+              <li
+                class="hover:bg-gray-200 duration-300 hover:rounded-2xl py-2 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+              >
+                <a href="" class="flex gap-x-3">
+                  <img
+                    src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fproviders%2Flinkedin-learning-trn-sq.png?auto=format&cs=strip&fit=&h=50&ixlib=php-3.3.1&w=50&s=7deeee41ea2d12f795bfdc405a89c496"
+                    alt=""
+                  />
+                  <h2 class="text-xl font-medium text-slate-700">
+                    LinkedIn Learning
+                  </h2></a
+                >
+              </li>
+              <li
+                class="hover:bg-gray-200 duration-300 hover:rounded-2xl py-2 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+              >
+                <a href="" class="flex gap-x-3">
+                  <img
+                    src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fproviders%2Fskillshare-trn-sq.png?auto=format&cs=strip&fit=&h=50&ixlib=php-3.3.1&w=50&s=d9e51a1e711dbb0e1cb34e4c63551231"
+                    alt=""
+                  />
+                  <h2 class="text-xl font-medium text-slate-700">
+                    SkillShare
+                  </h2></a
+                >
+              </li>
+            </ul>
+            <div class="pt-10 pb-20">
+              <button
+                class="text-2xl font-bold bg-gradient-to-r from-violet-300 to-violet-0 py-4 px-6 duration-300 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+              >
+                Browse providers <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="basis-1/4 pl-10">
+            <h2 class="text-3xl font-bold pb-10">600+ Institutions</h2>
+            <ul>
+              <li
+                class="hover:bg-gray-200 duration-300 hover:rounded-2xl py-2 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+              >
+                <a href="" class="flex gap-x-3">
+                  <img
+                    src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fgoogle.png?auto=format&cs=strip&fit=&h=50&ixlib=php-3.3.1&w=50&s=28a13d6dddffe8d861ff5decfb83a695"
+                    alt=""
+                  />
+                  <h2 class="text-xl font-medium text-slate-700">Google</h2></a
+                >
+              </li>
+              <li
+                class="hover:bg-gray-200 duration-300 hover:rounded-2xl py-2 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+              >
+                <a href="" class="flex gap-x-3">
+                  <img
+                    src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Famazon.png?auto=format&cs=strip&fit=&h=50&ixlib=php-3.3.1&w=50&s=41e781e76e91b5059a7fbc2168283667"
+                    alt=""
+                  />
+                  <h2 class="text-xl font-medium text-slate-700">Amazon</h2></a
+                >
+              </li>
+              <li
+                class="hover:bg-gray-200 duration-300 hover:rounded-2xl py-2 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+              >
+                <a href="" class="flex gap-x-3">
+                  <img
+                    src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fmicrosoft.png?auto=format&cs=strip&fit=&h=50&ixlib=php-3.3.1&w=50&s=2e82f16f3e381d409b5b2924c9665bd7"
+                    alt=""
+                  />
+                  <h2 class="text-xl font-medium text-slate-700">
+                    Microsoft
+                  </h2></a
+                >
+              </li>
+              <li
+                class="hover:bg-gray-200 duration-300 hover:rounded-2xl py-2 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+              >
+                <a href="" class="flex gap-x-3">
+                  <img
+                    src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fibm.png?auto=format&cs=strip&fit=&h=50&ixlib=php-3.3.1&w=50&s=fbb4ccdbbb895bfc02137b42107f2edf"
+                    alt=""
+                  />
+                  <h2 class="text-xl font-medium text-slate-700">IBM</h2></a
+                >
+              </li>
+              <li
+                class="hover:bg-gray-200 duration-300 hover:rounded-2xl py-2 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+              >
+                <a href="" class="flex gap-x-3">
+                  <img
+                    src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fsmithsonian.png?auto=format&cs=strip&fit=&h=50&ixlib=php-3.3.1&w=50&s=ce8c63e4445f3cfed1a9f95579a52d11"
+                    alt=""
+                  />
+                  <h2 class="text-xl font-medium text-slate-700">
+                    Smithsonian
+                  </h2></a
+                >
+              </li>
+              <li
+                class="hover:bg-gray-200 duration-300 hover:rounded-2xl py-2 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+              >
+                <a href="" class="flex gap-x-3">
+                  <img
+                    src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Funited-nations.png?auto=format&cs=strip&fit=&h=50&ixlib=php-3.3.1&w=50&s=6d29c7e53511de20226e41e2ea583662"
+                    alt=""
+                  />
+                  <h2 class="text-xl font-medium text-slate-700">
+                    United Nations
+                  </h2></a
+                >
+              </li>
+              <li
+                class="hover:bg-gray-200 duration-300 hover:rounded-2xl py-2 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+              >
+                <a href="" class="flex gap-x-3">
+                  <img
+                    src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fbritish-council.png?auto=format&cs=strip&fit=&h=50&ixlib=php-3.3.1&w=50&s=ce4a3136cf6152a19e7e89a15dc790a7"
+                    alt=""
+                  />
+                  <h2 class="text-xl font-medium text-slate-700">
+                    British Council
+                  </h2></a
+                >
+              </li>
+            </ul>
+            <div class="pt-10 pb-20">
+              <button
+                class="text-2xl font-bold bg-gradient-to-r from-violet-300 to-violet-0 py-4 px-6 duration-300 transition ease-in-out hover:-translate-y-1 hover:scale-110"
+              >
+                Browse institution <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
